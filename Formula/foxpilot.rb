@@ -1,21 +1,21 @@
 class Foxpilot < Formula
   desc "Local multi-project task control CLI"
   homepage "https://github.com/MichealJou/FoxPoilt"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/MichealJou/FoxPoilt/releases/download/v0.1.0/foxpilot-darwin-arm64.tar.gz"
-      sha256 "ae55addc18be7516fec179fd8ed061892d66d11673e4621d23be5559944e53e1"
+      url "https://github.com/MichealJou/FoxPoilt/releases/download/v0.1.1/foxpilot-darwin-arm64.tar.gz"
+      sha256 "ec37eeebe43e59933995ebbebf00e543faa34ff283f229083ababae484ca12a8"
     else
-      url "https://github.com/MichealJou/FoxPoilt/releases/download/v0.1.0/foxpilot-darwin-x64.tar.gz"
-      sha256 "9065b6e0ac37af746464277eae297e729d80f343b933241b03996d77dcc911a0"
+      url "https://github.com/MichealJou/FoxPoilt/releases/download/v0.1.1/foxpilot-darwin-x64.tar.gz"
+      sha256 "c9c81382afc5f6d557baa5405a18fefad1d6fbcb706554d53a87124647ae7c08"
     end
   end
 
   on_linux do
-    url "https://github.com/MichealJou/FoxPoilt/releases/download/v0.1.0/foxpilot-linux-x64.tar.gz"
-    sha256 "8bdc47c19414067159e07c93f45d44e884a8a6a6054b3d463d4b968bc294a0c7"
+    url "https://github.com/MichealJou/FoxPoilt/releases/download/v0.1.1/foxpilot-linux-x64.tar.gz"
+    sha256 "a68ab39c402fa608670e6a5f3514b1d01765f678614c7e36b0d4a87af8390096"
   end
 
   def install
